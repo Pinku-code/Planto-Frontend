@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import pdf from "../assets/article/NORMALISATION.pdf"
+import JournalCover from '../assets/pic4.jpg'; // Adjust the path as necessary
 
 const JournalSection = () => {
   const [showPDF, setShowPDF] = useState(false);
