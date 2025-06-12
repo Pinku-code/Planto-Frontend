@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import { Leaf } from "lucide-react"; // Optional: Replace with custom SVG
 import { getServices } from "../lib/api";
 
-import Chilli from "../../src/assets/Chilli.jpg"
 
 export default function Services() {
   const [services, setServices] = useState([]);

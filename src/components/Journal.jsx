@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
-import JournalCover from "../assets/DarjlingTea.jpg";
 import pdf from "../assets/article/NORMALISATION.pdf"
 
 const JournalSection = () => {
