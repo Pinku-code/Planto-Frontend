@@ -31,7 +31,8 @@ export default function Contact() {
     setSuccess(false);
 
     try {
-      await axios.post("http://localhost:8000/api/contact/", formData);
+      // await axios.post("http://localhost:8000/api/contact/", formData);
+      await axios.post("https://planto-backend.onrender.com/api/contact/", formData);
       setSuccess(true);
       setFormData({
         name: "",
