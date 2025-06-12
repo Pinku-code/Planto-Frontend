@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "ESNext",
+    "module": "NodeNext",                  // ✅ Fix this line
+    "moduleResolution": "NodeNext",        // ✅ Must match
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["tailwindcss"]
+  },
+  "include": ["src", "tailwind.config.ts", "postcss.config.cjs", "vite.config.ts"]
+}
